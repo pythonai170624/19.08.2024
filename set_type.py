@@ -24,7 +24,7 @@ print(s1)
 
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
-inter = set1.intersection(set2)  # inter becomes {2, 3}
+inter = set1.intersection(set2)  # inter becomes {3}
 print('intersection', inter)
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
