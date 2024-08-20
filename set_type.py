@@ -63,7 +63,7 @@ print('set1 < set2', s < t)  # True
 
 s = {1, 2, 3}
 t = {1, 2}
-result = s.issuperset(t)  # result is False
+result = s.issuperset(t)  # result is True
 # x > 3 , 3 < x
 s = {1, 2, 3}
 t = {1, 2}
