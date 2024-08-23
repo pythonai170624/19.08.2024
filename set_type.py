@@ -100,11 +100,11 @@ s = {1, 2, 3, 4}
 s2 = {3, 4, 5, 10, 20, 30, 40}
 # take items which ONLY appear in ONE of the groups
 # keeping the different
-sym_diff = s.symmetric_difference(t)  # sym_diff becomes {1, 2, 5}
+sym_diff = s.symmetric_difference(s2)  # sym_diff becomes {1, 2, 5, 10, 20, 30, 40}
 print('symmetric', sym_diff)
 s = {1, 2, 3, 4}
 s2 = {3, 4, 5, 10, 20, 30, 40}
-print("set1 ^ set2", set1 ^ set2)
+print("set1 ^ set2", set1 ^ set2)  # {1, 2, 5, 10, 20, 30, 40}
 
 
 
